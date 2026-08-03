@@ -1,24 +1,30 @@
 # SUPPLY CHAIN RISK & RETENTION ANALYSIS
 
-## Team Members
+## Project Lead
 
--   Team Leader: Dhruvisha Vadukul
-  
-## Project overview
+**Dhruvisha Vadukul**
+
+## Project Overview
 
 Supply Chain Risk and Customer Retention Analysis is a data analytics project developed using the DataCo Smart Supply Chain dataset to analyse shipment performance, delivery delays, supply chain risks, sales trends, profitability, and customer purchasing behaviour. The project aims to identify delayed shipments, calculate delivery delay days, classify shipment risk levels, evaluate shipping modes, analyse regional performance, examine product categories, monitor monthly sales trends, and understand customer segments to uncover meaningful business insights.
 
-The project was implemented using Python for data preprocessing, data cleaning, feature engineering, exploratory data analysis (EDA), statistical analysis, outlier detection, correlation analysis, and risk assessment. Power BI was used to develop an interactive dashboard that visualizes key performance indicators (KPIs), shipment risk distribution, delivery performance, sales trends, and regional insights.
+The project was implemented using Python for data pre-processing, data cleaning, feature engineering, exploratory data analysis (EDA), statistical analysis, outlier detection, correlation analysis, and risk assessment. Power BI was used to develop an interactive dashboard that visualizes key performance indicators (KPIs), shipment risk distribution, delivery performance, sales trends, and regional insights.
 
-The analysis provides valuable business insights, including the identification of high-risk shipments, regions with frequent delivery delays, the impact of different shipping modes on delivery performance, top-performing product categories, monthly sales patterns, customer purchasing behaviour, and overall profitability. These insights can help organizations optimize logistics operations, reduce supply chain risks, improve delivery efficiency, enhance customer satisfaction, and support data-driven strategic decision-making.
+The analysis provides valuable business insights, including the identification of high-risk shipments, regions with frequent delivery delays, the impact of different shipping modes on delivery performance, top-performing product categories, monthly sales patterns, customer purchasing behaviour, and overall profitability. These insights can help organizations optimize logistics operations, reduce supply chain risks, improve delivery efficiency, enhance customer satisfaction, and support data-driven strategic decision-making .
+
+## Business Problem
+
+Supply chain organizations often face challenges such as delayed deliveries, shipment risks, inefficient logistics operations, and changing customer purchasing behaviour. These issues can lead to increased operational costs, reduced customer satisfaction, and lower business profitability.
+
+This project analyses supply chain data to identify delivery delays, assess shipment risks, evaluate customer retention, and discover sales trends. The insights generated from this analysis help organizations improve operational efficiency, reduce risks, and make data-driven business decisions.
 
 
 ## Objectives
 
 -   Identify and analyse supply chain risk levels.
--   Analyze delivery delays and late orders.
+-   Analyse delivery delays and late orders.
 -   Identify high-risk orders based on delivery performance.
--   analyse customer purchasing and retention patterns.
+-   Analyse customer purchasing and retention patterns.
 -   Generate meaningful business insights using data analytics.
 -   Create an interactive dashboard for decision-making.
 
@@ -28,13 +34,24 @@ The analysis provides valuable business insights, including the identification o
 -   Power BI
 -   Microsoft Excel
   
-## Repository Structure
+##  Repository Structure
 
--   python file -- Python-based data analysis and EDA.
--   Raw data -- Raw dataset used for analysis.
--   Supply_Chain_Final_Data -- Final/processed dataset.
--   supply chain presentation -- Project presentation.
--   Supply_Chain_Risk_Retention_Analysis -- Power BI dashboard file.
+```
+📁 Data/
+   ├── Raw Dataset
+   └── Processed Dataset
+
+📁 Python/
+   └── Data Pre-processing & EDA
+
+📁 Dashboard/
+   └── Supply_Chain_Risk_Retention_Analysis.pbix
+
+📁 Presentation/
+   └── Project Presentation
+
+📄 README.md
+```
 
 ## Key Analysis 
 
@@ -66,16 +83,22 @@ The Power BI dashboard contains three major analysis areas:
 
 ##  Business Insights
 
-This project provides a clear view of supply chain risks and customer
-retention patterns. The analysis helps identify operational problems and
-supports data-driven business decision-making.
+- Identified high-risk shipments across different markets.
+- Analysed delivery delays affecting supply chain performance.
+- Compared sales and profit across regions.
+- Evaluated customer purchasing behaviour and retention.
+- Built an interactive Power BI dashboard to support business decision-making.
 
 
 ## GitHub Repository
 
-This repository contains the project files, datasets, Python analysis,
-Power BI dashboard, and project presentation.
+This repository includes:
 
+- Python scripts for data preprocessing and analysis
+- Raw and processed datasets
+- Power BI dashboard (.pbix)
+- Project presentation
+- Project documentation (README.md)
 ------------------------------------------------------------------------
 
 ## Author
